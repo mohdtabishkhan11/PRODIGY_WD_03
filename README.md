@@ -10,6 +10,8 @@ Simple tic-tac-toe game built using HTML, CSS, and JavaScript. For more informat
 google-chrome index.html
 ```
 
+## Demo
+Click [here](https://xoxo-noughts-crosses.netlify.app/)
 
 
 ### Rules

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Arial", sans-serif;
+    background-image: url(https://t3.ftcdn.net/jpg/03/23/88/08/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section {
+    text-align: center;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #ecd7ba;
+    border: 2px solid #ecd7ba;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--title {
+    font-size: 100px;
+    color: #ffffff;
+    margin: 10px auto;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px;
+
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #11213a;
+    color: #ffffff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px;
+
+}
+
+.game--status {
+    font-size: 50px;
+    color: #ffffff;
+    margin: 20px auto;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px;
+
+}
+
+.game--restart {
+    background-color: #000000;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #ffffff;
+    box-shadow: 2px 2px 2px 2px #dedcdb;
+    border: 2px solid #dddcdb;
+}
+.game--restart:hover{
+    scale: 1.2;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 38%;
+    padding: 1rem;
+    align-items: center;
+    font-family: "Salsa", cursive;
+    color: #901e64;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px;
+    font-size: 25px;
+
+
+
+  }
+  footer span a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px;
+
+    
+  }
+  footer span a:hover{
+    color: rgba(255, 255, 255, 0.504);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px;
+  }
+  
